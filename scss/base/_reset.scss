@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+* {max-height: 1000000px;}
+
+body {
+  color: $base-text-color;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-family: $base-font;
+  letter-spacing: $letter-spacing-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+// google map fix
+.gm-style img {max-width: none}

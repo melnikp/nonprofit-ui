@@ -1,0 +1,106 @@
+.footer {
+	ul{
+		padding: 0;
+		@media (max-width: $phone){
+			margin: 7px 0 0 0;
+		}
+	}
+	li{
+		@extend %listreset;
+	}
+	padding: 113px 0 120px 0;
+	.h1 {
+		font-size: 44px;
+		line-height: 46px;
+		display: flex;
+		flex-direction: column;
+		text-align: right;
+			@media (max-width: $tablet){
+				text-align: left;
+			}
+			@media (max-width: $phone){
+				text-align: right;
+				margin: 0 21px 0 0;
+			}
+
+	}
+
+}
+.footer_container{
+	display: flex;
+	flex-wrap: wrap;
+	:nth-child(2n) li{
+		display: flex;
+		flex-direction: column;
+	}
+	justify-content: space-between;
+	:not(:first-child,:last-child){
+		font-size: 14px;
+		letter-spacing: -0.01em;
+		line-height: 20px;
+	}
+	@media (max-width: $tablet){
+		justify-content: end;
+	}
+	@media (max-width: $phone){
+		justify-content: space-between;
+		
+	}
+	:nth-child(3n){
+		order: 4;
+	}
+	:nth-child(4n){
+		order: 3;
+	}
+	:nth-child(5n){
+		order: 5;
+	}
+}
+.footer_container>:nth-child(-n+2){
+	@media (max-width: $phone){
+		margin: 0 0 73px 0;
+	}
+}
+
+.footer_container>:last-child{
+	@media (max-width: $phone){
+		flex: 80%;
+		justify-content: end;
+		margin: 51px 20px 0 0;
+	}
+}
+.footer_item {
+	@media (max-width: $tablet){
+		flex: 0 1 33.33%;
+	}
+	@media (max-width: $phone){
+		flex: 0 1 40%;
+		display: flex;
+		justify-content: start;
+	}
+	a{
+		text-decoration: underline;
+	}
+}
+
+
+.line {
+	margin: 0;
+	width: 160px;
+	background-color: $brand-color2;
+	height: 1px;
+	@media (max-width: $tablet){
+		display: none;
+	}
+}
+.footer_item_container{
+	@media (max-width: $phone){
+		display: inline-flex;
+		flex-direction: column;
+	}
+	:first-child{
+		@media (max-width: $phone){
+			margin: 0;
+		}
+	}
+}

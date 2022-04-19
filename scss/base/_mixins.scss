@@ -1,0 +1,31 @@
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &::-moz-placeholder {opacity: 1; @content}
+  &:-moz-placeholder {@content}
+  &:-ms-input-placeholder {@content}
+  &.placeholder {@content}
+}
+
+// Example of usage
+
+// input, 
+// textarea { 
+//     @include input-placeholder {
+//         color: #333333;
+//     }
+// }
+
+// Responsive Font
+$maxWidth: 1920;
+
+@mixin responsive-font($pcSize, $mobSize, $breakpoint){
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: #{$breakpoint + px}) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));
+  }
+  @media (min-width: #{$breakpoint + px}) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWitdh}));
+  }
+}

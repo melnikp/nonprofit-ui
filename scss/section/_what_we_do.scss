@@ -1,0 +1,99 @@
+.what_we_do {
+	background-color: $brand-color2;
+	padding: 89px 0 160px 0 ;
+	@media (max-width: $tablet) {
+		img{
+			height: 100%;
+		}
+	}
+	@media (max-width: $phone) {
+		text-align: center;
+		padding: 43px 0 32px 0 ;
+	}	
+	h2{
+		color: $white;
+		margin: 40px 0 105px 0;
+		@media (max-width: $tablet) {
+			font-size: 36px;
+			line-height: 46px;
+		}
+		@media (max-width: $phone) {
+			font-size: 22px;
+			line-height: 28px;
+			margin: 15px 0 81px 0;
+		}
+	}
+}
+
+.what_we_do_container {
+	display: flex;
+	@media (max-width: $tablet) {
+		flex-direction: column;
+	}
+}
+.what_we_do_container>:not(:last-child){
+	margin: 0 64px 0 0;
+	@media (max-width: $tablet) {
+		margin: 0 0 64px 0;
+	}
+}
+.what_we_do_card {
+	background-color: $white;
+	@media (max-width: $tablet) {
+		display: flex;
+	}
+	@media (max-width: $phone) {
+		flex-direction: column;
+		padding: 0 32px;
+	}
+}
+.what_we_do_item{
+	position: relative;
+	padding: 0 37px 30px 27px;
+	p{
+		font-size: 16px;
+		font-weight: 300;
+		letter-spacing: -0.01em;
+		line-height: 24px;
+	}
+	h4{
+		margin: -3px 0 45px 0;
+		@media (max-width: $tablet) {
+			font-size: 22px;
+			line-height: 28px;
+			margin: 0 0 26px 0;
+		}
+		@media (max-width: $phone) {
+			margin: 0 0 17px 0;
+		}
+	}
+	.btn_green{
+		margin-top: 30px;
+		@media (max-width: $tablet) {
+			left: -55%;
+			bottom: 20%;
+			position: absolute;
+	
+		}
+		@media (max-width: $phone) {
+			position: static;
+			margin:auto;
+		}
+	}
+	@media (max-width: $tablet) {
+		padding: 29px 62px 50px 32px;
+		margin-left: 32px;
+	}
+	@media (max-width: $phone) {
+		padding: 0 0 32px 0;
+		margin: 0;
+	}
+}
+.what_we_do_img {
+	position: relative;
+	right: -32px;
+	top: -32px;
+	@media (max-width: $phone) {
+		right: 0;
+	}
+}

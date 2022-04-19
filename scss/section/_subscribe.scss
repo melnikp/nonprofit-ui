@@ -1,0 +1,69 @@
+.subscribe {
+	.btn_green {
+		color: $brand-color;
+		background-color: $brand-color2;
+	}
+	background-color: $brand-color;
+}
+.subscribe_container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 69px 0;
+	@media (max-width: $tablet){
+		flex-direction: column;
+	}
+	h3{
+		@media (max-width: $tablet){
+			font-size: 22px;
+			line-height: 28px;
+			margin: 0 225px 32px 0;
+		}
+		@media (max-width: $phone){
+			margin: 0 0 32px 0;
+		}
+	}
+}
+.subscribe_container > {
+	h3, .subscribe_item{
+	flex: 0 1 50%;
+	}
+}
+.subscribe_item {
+	display: flex;
+	justify-content: space-between;
+	input{
+		width: 100%;
+		border-radius: 20px;
+		outline: none;
+		border: none;
+		padding: 0 0 0 24px;
+		font-size: 20px;
+		letter-spacing: -0.02em;
+		line-height: 30px;
+		@media (max-width: $tablet){
+			width: 70%;
+			font-size: 16px;
+			letter-spacing: -0.01em;
+			line-height: 24px;
+		}
+		@media (max-width: $phone){
+			font-size: 14px;
+			letter-spacing: -0.01em;
+			line-height: 20px;
+			padding: 0 0 0 16px;
+
+		}
+	}
+	a{
+		margin: 0 0 0 32px;
+		@media (max-width: $phone){
+			margin: 0 0 0 8px;
+
+		}
+
+	}
+	@media (max-width: $tablet){
+		width: 100%;
+	}
+}

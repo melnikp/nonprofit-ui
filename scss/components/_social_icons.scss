@@ -1,0 +1,25 @@
+.social_icons{
+	background-color: $brand-color;
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-left: 56px;
+	border-radius: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.facebook{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='16' viewBox='0 0 8 16'%3e%3cpath id='iconmonstr-facebook-1' d='M8,5.333H6V8H8v8h3.333V8h2.428L14,5.333H11.333V4.222c0-.637.128-.889.743-.889H14V0H11.461C9.064,0,8,1.055,8,3.077Z' transform='translate(-6)' fill='%23354463'/%3e%3c/svg%3e ");
+}
+.twitter{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='13.003' viewBox='0 0 16 13.003'%3e%3cpath id='iconmonstr-twitter-1' d='M16,3.787a6.554,6.554,0,0,1-1.885.517,3.288,3.288,0,0,0,1.443-1.816,6.576,6.576,0,0,1-2.085.8A3.285,3.285,0,0,0,7.879,6.278,9.319,9.319,0,0,1,1.114,2.849,3.287,3.287,0,0,0,2.129,7.231,3.269,3.269,0,0,1,.643,6.821a3.285,3.285,0,0,0,2.633,3.26,3.29,3.29,0,0,1-1.483.056A3.285,3.285,0,0,0,4.86,12.416,6.6,6.6,0,0,1,0,13.776a9.293,9.293,0,0,0,5.032,1.475,9.284,9.284,0,0,0,9.33-9.764A6.683,6.683,0,0,0,16,3.787Z' transform='translate(0 -2.248)' fill='%23354463'/%3e%3c/svg%3e ");
+}
+.email{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16.001' height='10.667' viewBox='0 0 16.001 10.667'%3e%3cpath id='Контур_85' data-name='Контур 85' d='M16.4,4H3.6A1.482,1.482,0,0,0,2.008,5.333l-.008,8a1.489,1.489,0,0,0,1.6,1.333H16.4A1.489,1.489,0,0,0,18,13.333v-8A1.489,1.489,0,0,0,16.4,4Zm1.591,3.093-8,4.45L2,7.093V5.759l7.992,4.45,8-4.45Z' transform='translate(-1.999 -4)' fill='%23354463'/%3e%3c/svg%3e ");
+}
+.text{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath id='Контур_87' data-name='Контур 87' d='M16.4,2H3.6A1.6,1.6,0,0,0,2,3.6V18l3.2-3.2H16.4A1.6,1.6,0,0,0,18,13.2V3.6A1.6,1.6,0,0,0,16.4,2Z' transform='translate(-2 -2)' fill='%23354463'/%3e%3c/svg%3e ");
+}
+.arrow{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='34.061' height='24.121' viewBox='0 0 34.061 24.121'%3e%3cline id='Линия_22' data-name='Линия 22' x2='32' transform='translate(0 12.061)' fill='none' stroke='%23354463' stroke-width='3'/%3e%3cline id='Линия_23' data-name='Линия 23' x2='11' y2='11' transform='translate(22 1.061)' fill='none' stroke='%23354463' stroke-width='3'/%3e%3cline id='Линия_24' data-name='Линия 24' y1='11' x2='11' transform='translate(22 12.061)' fill='none' stroke='%23354463' stroke-width='3'/%3e%3c/svg%3e ");
+}

@@ -1,0 +1,13 @@
+.btn_green{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $brand-color2;
+	background-color: $brand-color;
+	border-radius: 24px;
+	font-family: $headlines_btn-font;
+	line-height: 22px;
+	font-size: 18px;
+	width: 160px;
+	height: 48px;
+}

@@ -1,0 +1,110 @@
+.news_and_events {
+	background-color: $brand-color2;
+	padding: 128px 0 112px 0;
+	.h1{
+		color: $white;
+		margin: 0 170px 74px 0;
+		@media (max-width: $tablet){
+			font-size: 44px;
+			line-height: 46px;
+		}
+		@media (max-width: $phone){
+			margin: 0 0 84px 0;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+	}
+	h2{
+		color: $white;
+		margin: 48px 0 22px 0;
+		@media (max-width: $tablet){
+			font-size: 28px;
+			line-height: 36px;
+		}
+		@media (max-width: $phone){
+			font-size: 22px;
+			line-height: 28px;
+			text-align: center;
+		}
+
+
+	}
+	p{
+		color: $white;
+		margin: 0 0 48px 0;
+		font-size: 20px;
+		letter-spacing: -0.02em;
+		line-height: 32px;
+		@media (max-width: $tablet){
+			font-size: 16px;
+			letter-spacing: -0.01em;
+			line-height: 24px;
+		}
+		@media (max-width: $phone){
+			font-size: 14px;
+			letter-spacing: -0.01em;
+			line-height: 20px;
+			text-align: center;
+		}
+	}
+	@media (max-width: $phone){
+		.btn_green{
+			margin: 0 auto;
+		}
+		.subheddings_white{
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 0;
+			@media (max-width: $tablet){
+				padding: 10px 36px;
+			}
+		}
+	}
+}
+.news_and_events_card {
+	display: flex;
+	justify-content: space-between;
+	>:last-child{
+		margin: 0 0 0 96px;
+		@media (max-width: $tablet){
+			margin: 0 0 0 64px;
+		}
+		@media (max-width: $phone){
+			margin: 0;
+		}
+	}
+	@media (max-width: $phone){
+		flex-direction: column;
+		position: relative;
+	}
+}
+.reverse{
+	flex-direction: row-reverse;
+	margin: 112px 0 0 0;
+	>:last-child{
+		margin: 0 96px 0 0;
+		@media (max-width: $tablet){
+			margin: 0 64px 0 0;
+		}
+		@media (max-width: $phone){
+			margin: 0;
+		}
+	}
+	@media (max-width: $phone){
+		flex-direction: column;
+		margin: 52px 0 0 0;
+	}
+}
+
+.news_and_events_item {
+	flex: 0 1 50%;
+	img{
+		@media (max-width: $tablet){
+			width: 100%;
+		}		
+	}
+	@media (max-width: $phone){
+		text-align: center;
+	}
+}

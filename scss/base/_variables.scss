@@ -1,0 +1,57 @@
+// Colors
+$white: #ffffff;
+$brand-color: #C1F7D5;
+$brand-color2: #354463;
+
+
+// Fonts
+$base-font: 'libertadlight';
+$subheadlines-font: 'libertadregular';
+$headlines_btn-font: 'poynter';
+$accent-font: 'flood';
+
+// Body
+$base-text-color: $brand-color2;
+$font-size-base: 20px;
+$letter-spacing-base: -0.02em;
+$line-height-base: 30px;
+$base-min-width: 320px;
+$base-max-width: 1920px;
+
+
+// Liks
+$base-link-color: $brand-color2;
+$link-font-size: 16px;
+
+//Buttons 
+// $btn-color: $white;
+
+// $btn-padding: 0.4em 0.7em !default;
+// $btn-font-size: inherit !default;
+
+// Forms
+// $form-element-padding: $btn-padding !default;
+// $form-element-border-color: $gray !default;
+// $form-element-focus-border-color: $black !default;
+// $placeholder-color: $gray !default;
+
+// Headers
+$h1-font-size: 72px !default;
+$h2-font-size: 44px !default;
+$subheadlines-size: 14px !default;
+$h3-font-size: 28px !default;
+$h4-font-size: 21px !default;
+$h5-font-size: 17px !default;
+$h6-font-size: 15px !default;
+
+$headings-font-family: $headlines_btn-font;
+$headings-color: $brand-color2;
+
+
+$animation-speed: 0.3s;
+
+// @media
+
+$tablet: 1440px;
+$phone: 768px;
+$xs: 376px;
